@@ -1,0 +1,53 @@
+.container{
+    display: flex;
+    gap:100px;
+}
+.posts{
+  flex:1;
+}
+
+.post{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 0px;
+}
+.imgContainer{
+    width: 200px;
+    height: 100px;
+    position:relative
+}
+
+.img{
+    object-fit: cover;
+}
+.delete{
+    cursor:pointer;
+    color: red;
+}
+.new{
+  flex:1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.input, .textarea{
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid #bbb;
+    border-radius: 8px;
+    color: #bbb;
+    font-size: 16px;
+    font-weight: 400;
+}
+.button{
+        padding: 18px;
+        cursor: pointer;
+        background-color: #53c28b;
+        border: none;
+        border-radius: 8px;
+        width: 300px;
+        color: white;
+        font-weight: 900;
+      }
+      

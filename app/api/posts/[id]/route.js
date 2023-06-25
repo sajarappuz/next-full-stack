@@ -14,3 +14,15 @@ export const GET = async (request, {params}) =>{
         return new NextResponse("Database Error",{status:500});  
     }
 }
+export const DELETE = async (request, {params}) =>{
+
+    const {id} = params //getting id for single post
+
+    try{
+       await connect()   //waiting for connection
+       const posts = await post.findByIdAndDelete(id) //fetching single post from post.js using id 
+       return new NextResponse("post has deleted",{status:201})
+    }catch(err){
+        return new NextResponse("Database Error",{status:500});  
+    }
+}
