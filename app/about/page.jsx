@@ -33,7 +33,7 @@ At our core, we believe in the transformative power of technology and its abilit
  <br />
  <br />
  <br />
-First and foremost, we are adept at crafting engaging and user-centric websites and applications. Our talented team of designers and developers collaborate closely to create visually stunning and highly functional digital experiences. From responsive web design to intuitive mobile applications, we ensure that our clients' digital presence captures attention and drives user engagement.
+     First and foremost, we are adept at crafting engaging and user-centric websites and applications. Our talented team of designers and developers collaborate closely to create visually stunning and highly functional digital experiences. From responsive web design to intuitive mobile applications, we ensure that our clients' digital presence captures attention and drives user engagement.
             </p> 
             <Button url="/contact" text='contact'/>
          </div>

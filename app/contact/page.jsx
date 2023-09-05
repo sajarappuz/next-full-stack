@@ -12,11 +12,11 @@ export const metadata = {
 const Contact = () => {
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>Let's keep in Touch</h1>
+      <h1 className={styles.title}>Let's keep in Touch : &apos; </h1>
       <div className={styles.content}>
         <div className={styles.imgContainer}>
           <Image 
-          src="/contact.png"
+          src="/contacted-transformed.png"
           alt=''
           fill={true} className={styles.img}
           />

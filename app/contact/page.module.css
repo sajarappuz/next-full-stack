@@ -15,7 +15,7 @@
     position: relative;
 }
 .img{
-    object-fit: contain;
+    object-fit: cover;
     animation: move 3s infinite ease alternate;
 }
 @keyframes move{
@@ -23,7 +23,7 @@
         transform: translateY(-15px);
     }
     to{
-        transform: translateY(0px) scale(1.04);
+        transform: translateY(0px) scale(1.2);
     }
 }
 .form{
